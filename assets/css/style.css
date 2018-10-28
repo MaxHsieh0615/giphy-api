@@ -1,0 +1,97 @@
+body {
+    background-color: aqua;
+}
+
+button {
+    background-color: yellow;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 14px;
+    width: 25%;
+    opacity: 0.7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+form {
+    float: right;
+    width: 25%;
+}
+
+#textBox {
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: aqua;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+#addSearch {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 14px;
+    width: 100%;
+    opacity: 0.7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 20px; 
+}
+
+label {
+    color: aqua;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 14px;
+    opacity: 0.7;
+    background-color: black;
+    display: block;
+    margin-right: 1px;
+}
+
+#results {
+    display: inline-block;
+    text-align: center;
+}
+
+@media screen and (max-width:786px){
+    button {
+        background-color: yellow;
+        text-align: center;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 14px;
+        width: 33.33%;
+        opacity: 0.7;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    form {
+        float: right;
+        width: 100%;
+    }
+    #results {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:640px){
+    button {
+        background-color: yellow;
+        text-align: center;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 14px;
+        width: 33.33%;
+        opacity: 0.7;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    form {
+        float: right;
+        width: 100%;
+    }
+    #results {
+        width: 95%;
+    }
+}
