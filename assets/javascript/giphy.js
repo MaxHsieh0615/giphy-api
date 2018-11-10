@@ -20,7 +20,7 @@ $(document).on("click", ".searchButton", function(){
     $("#results").empty();
     var type = $(this).data("type");
     console.log(type);
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q="+type+"&api_key=IJILX0O4Hgjr6ZDZVz4QLKC8wlurhBmX&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q="+type+"&api_key=IJILX0O4Hgjr6ZDZVz4QLKC8wlurhBmX&limit=10";
     $.ajax({
         url: queryURL,
         method: "GET"
